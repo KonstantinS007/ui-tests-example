@@ -1,5 +1,8 @@
 import pytest
 from pages.auth_page import AuthPage
+#  python -m pytest -v --driver Chrome --driver-path ~/chrome tests
+#  python -m pytest -v --driver Chrome --driver-path /chromedriver.exe tests
+
 
 def test_authorisation(web_browser):
 
