@@ -1,6 +1,7 @@
+import os,pickle
 from pages.base import WebPage
 from pages.elements import WebElement
-
+from pages.elements import ManyWebElements
 
 class AuthPage(WebPage):
 
@@ -13,3 +14,4 @@ class AuthPage(WebPage):
     password = WebElement(id='pass')
 
     btn = WebElement(class_name='btn.btn-success')
+
